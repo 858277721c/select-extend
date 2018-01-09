@@ -35,10 +35,5 @@ public class FTabUnderline extends FSelectView
         setContentView(R.layout.lib_view_tab_underline);
         tv_text = findViewById(R.id.tv_text);
         view_underline = findViewById(R.id.view_underline);
-
-        config(view_underline)
-                .setVisibilityNormal(View.INVISIBLE)
-                .setVisibilitySelected(View.VISIBLE)
-                .setSelected(false);
     }
 }
