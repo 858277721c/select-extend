@@ -31,6 +31,6 @@ public class FTabText extends FSelectView
     protected void init()
     {
         setContentView(R.layout.lib_view_tab_text);
-        tv_text = (TextView) findViewById(R.id.tv_text);
+        tv_text = findViewById(R.id.tv_text);
     }
 }
